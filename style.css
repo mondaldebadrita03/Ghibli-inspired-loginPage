@@ -1,0 +1,131 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('images/ghibli1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Poppins';
+}
+
+.container{
+    padding: 10px;
+    margin: 10px;
+    border: 2px;
+}
+
+.box{
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    width: 23rem;
+    height: 25rem;
+    border-radius: 15px;
+    background-color: rgba(245, 245, 220, 0.196);
+    backdrop-filter: blur(3px);
+}
+
+.title{
+    padding: 1px;
+    margin: 1px;
+    position: relative;
+    left: 10px;
+    text-shadow: 1.75px 1px rgb(59, 59, 59);
+}
+
+h2{
+    font-size: 45px;
+}
+
+h1{
+    position: relative;
+    bottom: 18px;
+    font-size: 75px;
+    text-indent: 25px;
+}
+
+#sec1{
+    padding: 15px;
+    margin: 3px;
+    border: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.content{
+    padding: 7px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="email"],input[type=password],input[type=submit]{
+
+    width: 18rem;
+    height: 2rem;
+    border-radius: 20px;
+    font-family: 'Poppins';
+    font-size: 14px;
+    border: 1px solid white;
+    text-indent: 10px;
+}
+
+input[type="checkbox"]{
+    width: 10px;
+    padding: 1px;
+    margin: 1px;
+}
+
+.content1{
+    padding: 23px;
+    margin: 15px;    
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 17px;
+}
+
+label{
+    position: relative;
+    left: -29.5px;
+}
+
+.btn{
+    text-align: center;
+    padding: 3px;
+    margin: 3px;
+    font-family: 'Poppins';
+    background-color: rgb(255, 255, 255);
+    font-size: 1px;
+    color: rgb(40, 99, 37);
+    position: relative;
+    left: 1.4rem;
+    bottom: 30px;
+}
+
+h5{
+    position: relative;
+    top: -10px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: normal;
+}
+
+h5 a{
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
