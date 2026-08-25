@@ -1,5 +1,7 @@
 # 🌿 Ghibli-Inspired Login Page
 
+> かわいいね！ 🌸
+
 A simple and cozy **Ghibli-inspired login page** built using **HTML and CSS**.
 
 This was one of my early projects while learning the fundamentals of web development. I created it to practice webpage structure, CSS styling, layouts, positioning, colors, typography, and creating visually appealing user interfaces.
